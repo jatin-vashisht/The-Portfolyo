@@ -9,7 +9,7 @@ function Experience({ timeline }) {
   return (
     <div
       id="experience"
-      className="relative z-50 border-t my-40 lg:my-24 border-[#25213b]"
+      className="relative z-50 border-t mt-40 lg:my-24 border-[#25213b]"
     >
       <Image
         src="/section.svg"

@@ -60,9 +60,9 @@ function Services({services}) {
                         {service.name} {`(${service.charge})`}
                       </p>
                     </div>
-                    <div className={`flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'} gap-x-8 px-3 py-5`}>
+                    <div className={`flex flex-col md:flex-row ${index % 2 === 0 ? 'justify-start' : 'justify-end'} items-center gap-x-8 px-3 py-5`}>
                       <Image src={service.image.url} width={200} height={200} className="hover:scale-125" alt="Service Image" />
-                      <p className="text-sm sm:text-base">
+                      <p className="text-sm sm:text-base mt-4 text-center">
                         {service.desc}
                       </p>
                     </div>
