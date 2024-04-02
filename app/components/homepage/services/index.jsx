@@ -5,7 +5,7 @@ function Services({ services }) {
   return (
     <div
       id="services"
-      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+      className="relative z-50 border-t my-16 md:my-20 lg:my-24 border-[#25213b]"
     >
       <Image
         src="/section.svg"
@@ -34,7 +34,7 @@ function Services({ services }) {
         <div className="grid grid-cols-2 gap-6">
           {services.slice(0,4).map((service, index) => (
             <GlowCard key={service._id} identifier={`service-${service._id}`}>
-              <div className="p-3 relative text-white h-[18rem]">
+              <div className="p-3 relative text-white h-[17rem] md:h-[18rem]">
                 <Image
                   src="/blur-23.svg"
                   alt="Hero"
@@ -59,7 +59,7 @@ function Services({ services }) {
                     className="rounded-md hover:scale-105"
                     alt="Service Image"
                   />
-                  <p className="text-sm sm:text-base mt-4 text-center">
+                  <p className="text-sm sm:text-base mt-4 text-center invisible md:visible">
                     {service.desc}
                   </p>
                 </div>

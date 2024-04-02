@@ -33,12 +33,6 @@ function ProjectCard({ project }) {
               className="mx-auto mb-4 rounded-lg"
             />
           </code>
-          {/* <button
-            className="bg-violet-500 text-white px-3 py-1.5 rounded-full text-base mt-2 hover:bg-violet-600"
-            onClick={handleOpenModal}
-          >
-            View Project Details
-          </button> */}
           {open && <Modal project={project} onClose={handleCloseModal} />}
         </div>
       </div>

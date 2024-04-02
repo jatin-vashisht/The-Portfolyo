@@ -1,6 +1,6 @@
 function AboutSection({about, skills}) {
   return (
-    <div id="about" className="h-[100vh] relative pt-36">
+    <div id="about" className="relative">
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           ABOUT ME
