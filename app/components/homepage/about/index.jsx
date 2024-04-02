@@ -18,7 +18,7 @@ function AboutSection({about}) {
             {about.description}
           </p>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
+        {/* <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={about.avatar.url}
             width={200}
@@ -26,7 +26,7 @@ function AboutSection({about}) {
             alt="Avatar"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

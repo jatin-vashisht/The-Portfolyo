@@ -10,7 +10,7 @@ function TestimonialCard({ testimonial }) {
           height={1080}
           width={1920}
           alt="Testimonial Image"
-          className="h-full w-full group-hover:scale-110 transition-all duration-300"
+          className="h-full w-full transition-all duration-300"
         />
       </div>
       <div className="p-2 sm:p-3 flex flex-col">

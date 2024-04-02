@@ -82,7 +82,7 @@ function HeroSection({ about, skills }) {
             </Link>
           </div>
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+        {/* <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
@@ -182,6 +182,15 @@ function HeroSection({ about, skills }) {
               </div>
             </code>
           </div>
+        </div> */}
+        <div className="flex justify-center order-1 lg:order-2">
+          <Image
+            src={about.avatar.url}
+            width={350}
+            height={350}
+            alt="Avatar"
+            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          />
         </div>
       </div>
     </section>
