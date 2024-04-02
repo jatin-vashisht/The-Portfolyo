@@ -25,7 +25,7 @@ function Navbar() {
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#skills"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div></a>
           </li>
           <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#education"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SERVICES</div></a>
+            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#services"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SERVICES</div></a>
           </li>
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#blogs"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">TESTIMONIALS</div></a>
