@@ -16,7 +16,7 @@ export default async function Home() {
   return (
     <>
       <HeroSection about={user.about} skills={user.skills} />
-      <AboutSection about={user.about} />
+      <AboutSection about={user.about} skills={user.skills} />
       <Experience timeline={user.timeline} />
       <Skills skills={user.skills} />
       <Projects projects={user.projects} />
